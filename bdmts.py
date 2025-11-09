@@ -4,7 +4,7 @@ Bicycle stabilization dynamics for microscopic traffic simulation (SUMO/TraCI).
 
 Implements a bicycle dynamics model that models lateral position as a function
 of stabilization control effort. The model can be used to study operational
-width vs. speed and overtaking/platoon behavior in microscopic traffic simulation SUMO (code implementation) or VISSIM (using the respective function and python COM interface code not provided here.).
+width vs. speed and overtaking/platoon behavior in microscopic traffic simulation SUMO (code implementation) or VISSIM (using the respective function and python COM interface code not provided here).
 
 Reference:
 G. Grigoropoulos, H. Kaths, F. Busch (2019).
@@ -15,13 +15,14 @@ Relevant work:
 Kaths, Heather, and Georgios Grigoropoulos. "Integration of an external bicycle model in sumo." SUMO User Conference. 2016.
 https://mediatum.ub.tum.de/doc/1310495/document.pdf
 
-Function bikaccdecmod implements the aceleration model from the followingp paper
+Function bikaccdecmod implements the aceleration model from the following paper
 Twaddle, Heather, and Georgios Grigoropoulos. Modeling the Speed, Acceleration, and Deceleration of Bicyclists for Microscopic Traffic Simulation. No. 16-0198. 2016.
-
+https://doi.org/10.3141/2587-02
 
 Notes:
 - Python 2.x.
 - SUMO paths and scenario files must be defined by user.
+- Review the codde carefully as this project hsas been inactive since 2019 :-)
 
 Environment variables (optional):
 - SUMO_HOME : path to SUMO installation (to locate 'tools')
@@ -444,3 +445,4 @@ while k < 1800 * 10:
     traci.simulationStep()
 traci.close()
 # -------------------------------------------------------------------------
+
