@@ -17,14 +17,14 @@ start SUMO with the provided config, and run the dynamics (see #### begin main l
 writing per-timestep results to results.csv.
 
 ## Notes
-The code is intentionally kept at Python 2 to preserve compatibility, as this has been a legacy project
+The code is intentionally kept at Python 2 to preserve compatibility, as this has been a legacy project. Minor updates will be required to make it comatible with Python 3
 All machine(local)-specific paths have been removed; configure on your own via environment vars.
 For scientific background and model details and citing the code, please see the paper above. Additionally function bikaccdecmod implements the aceleration model 
 from the following paper:
 Twaddle, Heather, and Georgios Grigoropoulos. Modeling the Speed, Acceleration, and Deceleration of Bicyclists for Microscopic Traffic Simulation. No. 16-0198. 2016.
 [Modeling the Speed, Acceleration, and Deceleration of Bicyclists for Microscopic Traffic Simulation
 ](https://doi.org/10.3141/2587-02)
-
+An example sumo newrok and simulation cfg is also provided
 
 
 
