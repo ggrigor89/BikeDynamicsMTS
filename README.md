@@ -1,4 +1,4 @@
-# Bicycle Stabilization Dynamics for SUMO (Python 2)
+# Bicycle Stabilization Dynamics Model
 
 This repository provides a Python **2.x** script that integrates a bicycle
 stabilization dynamics model into a SUMO/TraCI simulation. The model modulates
