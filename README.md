@@ -19,11 +19,14 @@ writing per-timestep results to results.csv.
 ## Notes
 The code is intentionally kept at Python 2 to preserve compatibility, as this has been a legacy project
 All machine(local)-specific paths have been removed; configure on your own via environment vars.
-For scientific background and model details, please see the paper above. Additionally function bikaccdecmod implements the aceleration model 
+For scientific background and model details and citing the code, please see the paper above. Additionally function bikaccdecmod implements the aceleration model 
 from the following paper:
 Twaddle, Heather, and Georgios Grigoropoulos. Modeling the Speed, Acceleration, and Deceleration of Bicyclists for Microscopic Traffic Simulation. No. 16-0198. 2016.
 [Modeling the Speed, Acceleration, and Deceleration of Bicyclists for Microscopic Traffic Simulation
 ](https://doi.org/10.3141/2587-02)
+
+
+
 
 ## Requirements
 - Python **2.x** Script is from 2017 :-)
