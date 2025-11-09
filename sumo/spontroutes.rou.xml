@@ -1,0 +1,8 @@
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+<vType id="bicycle" vClass="bicycle" accel="0.5" decel="1.0" latAlignment="compact" departPos="random_free" sigma="0" length="2" minGap="2" maxSpeed="5" speedFactor="1.2" speedDev="0.7" color="0,1,0" guiShape="bicycle"/>
+    
+
+    <route id="NE" edges="NSE"/>  
+    <flow id="NE_bike" type="bicycle" route="NE" begin="0" end="3600" arrivalSpeed="current" vehsPerHour="4000" color="0,0,1"/>
+
+</routes>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 03/29/16 17:24:22 by Netedit Version dev-SVN-r19804
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netedit.exeConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="spheart.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="spheart.net.xml"/>
+    </output>
+
+    <processing>
+        <no-internal-links value="true"/>
+        <no-turnarounds value="true"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+        <junctions.corner-detail value="0"/>
+    </processing>
+
+</configuration>
+-->
+
+<net version="0.25" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="-567.73,-183.23" convBoundary="32.27,116.77,232.27,116.77" origBoundary="567.73,183.23,800.00,382.64" projParameter="!"/>
+
+    <edge id="NSE" from="NEN1" to="NEN2" priority="10">
+        <lane id="NSE_0" index="0" allow="bicycle" speed="10.00" length="200.00" width="1.60" shape="32.27,105.62 232.27,105.62"/>
+        <lane id="NSE_1" index="1" disallow="bicycle" speed="10.00" length="200.00" width="3.50" shape="32.27,108.27 232.27,108.27"/>
+        <lane id="NSE_2" index="2" disallow="bicycle" speed="10.00" length="200.00" width="3.50" shape="32.27,111.87 232.27,111.87"/>
+        <lane id="NSE_3" index="3" disallow="bicycle" speed="10.00" length="200.00" width="3.00" shape="32.27,115.22 232.27,115.22"/>
+    </edge>
+
+    <junction id="NEN1" type="unregulated" x="32.27" y="116.77" incLanes="" intLanes="" shape="32.27,116.72 32.27,104.82" radius="5.00"/>
+    <junction id="NEN2" type="unregulated" x="232.27" y="116.77" incLanes="NSE_0 NSE_1 NSE_2 NSE_3" intLanes="" shape="232.27,104.82 232.27,116.72" radius="5.00"/>
+
+</net>
